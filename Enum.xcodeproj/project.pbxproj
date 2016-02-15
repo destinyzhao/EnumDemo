@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA40B3821C71785400AC70AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40B3811C71785400AC70AC /* main.m */; };
+		FA40B3851C71785400AC70AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40B3841C71785400AC70AC /* AppDelegate.m */; };
+		FA40B3881C71785400AC70AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40B3871C71785400AC70AC /* ViewController.m */; };
+		FA40B38B1C71785400AC70AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40B3891C71785400AC70AC /* Main.storyboard */; };
+		FA40B38D1C71785400AC70AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA40B38C1C71785400AC70AC /* Assets.xcassets */; };
+		FA40B3901C71785400AC70AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA40B38E1C71785400AC70AC /* LaunchScreen.storyboard */; };
+		FA40B39B1C71785500AC70AC /* EnumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40B39A1C71785500AC70AC /* EnumTests.m */; };
+		FA40B3A61C71785500AC70AC /* EnumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA40B3A51C71785500AC70AC /* EnumUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA40B3971C71785500AC70AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA40B3751C71785400AC70AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA40B37C1C71785400AC70AC;
+			remoteInfo = Enum;
+		};
+		FA40B3A21C71785500AC70AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA40B3751C71785400AC70AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA40B37C1C71785400AC70AC;
+			remoteInfo = Enum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA40B37D1C71785400AC70AC /* Enum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40B3811C71785400AC70AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA40B3831C71785400AC70AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA40B3841C71785400AC70AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA40B3861C71785400AC70AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA40B3871C71785400AC70AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA40B38A1C71785400AC70AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA40B38C1C71785400AC70AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA40B38F1C71785400AC70AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA40B3911C71785400AC70AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40B3961C71785500AC70AC /* EnumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40B39A1C71785500AC70AC /* EnumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumTests.m; sourceTree = "<group>"; };
+		FA40B39C1C71785500AC70AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40B3A11C71785500AC70AC /* EnumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA40B3A51C71785500AC70AC /* EnumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumUITests.m; sourceTree = "<group>"; };
+		FA40B3A71C71785500AC70AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA40B3B31C71795600AC70AC /* MarcoDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarcoDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA40B37A1C71785400AC70AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B3931C71785500AC70AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B39E1C71785500AC70AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA40B3741C71785400AC70AC = {
+			isa = PBXGroup;
+			children = (
+				FA40B37F1C71785400AC70AC /* Enum */,
+				FA40B3991C71785500AC70AC /* EnumTests */,
+				FA40B3A41C71785500AC70AC /* EnumUITests */,
+				FA40B37E1C71785400AC70AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA40B37E1C71785400AC70AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA40B37D1C71785400AC70AC /* Enum.app */,
+				FA40B3961C71785500AC70AC /* EnumTests.xctest */,
+				FA40B3A11C71785500AC70AC /* EnumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA40B37F1C71785400AC70AC /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				FA40B3831C71785400AC70AC /* AppDelegate.h */,
+				FA40B3841C71785400AC70AC /* AppDelegate.m */,
+				FA40B3861C71785400AC70AC /* ViewController.h */,
+				FA40B3871C71785400AC70AC /* ViewController.m */,
+				FA40B3891C71785400AC70AC /* Main.storyboard */,
+				FA40B38C1C71785400AC70AC /* Assets.xcassets */,
+				FA40B38E1C71785400AC70AC /* LaunchScreen.storyboard */,
+				FA40B3911C71785400AC70AC /* Info.plist */,
+				FA40B3801C71785400AC70AC /* Supporting Files */,
+				FA40B3B31C71795600AC70AC /* MarcoDefine.h */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		FA40B3801C71785400AC70AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA40B3811C71785400AC70AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA40B3991C71785500AC70AC /* EnumTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA40B39A1C71785500AC70AC /* EnumTests.m */,
+				FA40B39C1C71785500AC70AC /* Info.plist */,
+			);
+			path = EnumTests;
+			sourceTree = "<group>";
+		};
+		FA40B3A41C71785500AC70AC /* EnumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA40B3A51C71785500AC70AC /* EnumUITests.m */,
+				FA40B3A71C71785500AC70AC /* Info.plist */,
+			);
+			path = EnumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA40B37C1C71785400AC70AC /* Enum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40B3AA1C71785500AC70AC /* Build configuration list for PBXNativeTarget "Enum" */;
+			buildPhases = (
+				FA40B3791C71785400AC70AC /* Sources */,
+				FA40B37A1C71785400AC70AC /* Frameworks */,
+				FA40B37B1C71785400AC70AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enum;
+			productName = Enum;
+			productReference = FA40B37D1C71785400AC70AC /* Enum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA40B3951C71785500AC70AC /* EnumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40B3AD1C71785500AC70AC /* Build configuration list for PBXNativeTarget "EnumTests" */;
+			buildPhases = (
+				FA40B3921C71785500AC70AC /* Sources */,
+				FA40B3931C71785500AC70AC /* Frameworks */,
+				FA40B3941C71785500AC70AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA40B3981C71785500AC70AC /* PBXTargetDependency */,
+			);
+			name = EnumTests;
+			productName = EnumTests;
+			productReference = FA40B3961C71785500AC70AC /* EnumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA40B3A01C71785500AC70AC /* EnumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA40B3B01C71785500AC70AC /* Build configuration list for PBXNativeTarget "EnumUITests" */;
+			buildPhases = (
+				FA40B39D1C71785500AC70AC /* Sources */,
+				FA40B39E1C71785500AC70AC /* Frameworks */,
+				FA40B39F1C71785500AC70AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA40B3A31C71785500AC70AC /* PBXTargetDependency */,
+			);
+			name = EnumUITests;
+			productName = EnumUITests;
+			productReference = FA40B3A11C71785500AC70AC /* EnumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA40B3751C71785400AC70AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					FA40B37C1C71785400AC70AC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					FA40B3951C71785500AC70AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FA40B37C1C71785400AC70AC;
+					};
+					FA40B3A01C71785500AC70AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = FA40B37C1C71785400AC70AC;
+					};
+				};
+			};
+			buildConfigurationList = FA40B3781C71785400AC70AC /* Build configuration list for PBXProject "Enum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA40B3741C71785400AC70AC;
+			productRefGroup = FA40B37E1C71785400AC70AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA40B37C1C71785400AC70AC /* Enum */,
+				FA40B3951C71785500AC70AC /* EnumTests */,
+				FA40B3A01C71785500AC70AC /* EnumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA40B37B1C71785400AC70AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40B3901C71785400AC70AC /* LaunchScreen.storyboard in Resources */,
+				FA40B38D1C71785400AC70AC /* Assets.xcassets in Resources */,
+				FA40B38B1C71785400AC70AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B3941C71785500AC70AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B39F1C71785500AC70AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA40B3791C71785400AC70AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40B3881C71785400AC70AC /* ViewController.m in Sources */,
+				FA40B3851C71785400AC70AC /* AppDelegate.m in Sources */,
+				FA40B3821C71785400AC70AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B3921C71785500AC70AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40B39B1C71785500AC70AC /* EnumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA40B39D1C71785500AC70AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA40B3A61C71785500AC70AC /* EnumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA40B3981C71785500AC70AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA40B37C1C71785400AC70AC /* Enum */;
+			targetProxy = FA40B3971C71785500AC70AC /* PBXContainerItemProxy */;
+		};
+		FA40B3A31C71785500AC70AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA40B37C1C71785400AC70AC /* Enum */;
+			targetProxy = FA40B3A21C71785500AC70AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA40B3891C71785400AC70AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40B38A1C71785400AC70AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA40B38E1C71785400AC70AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA40B38F1C71785400AC70AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA40B3A81C71785500AC70AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA40B3A91C71785500AC70AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA40B3AB1C71785500AC70AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Enum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA40B3AC1C71785500AC70AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Enum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.Enum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA40B3AE1C71785500AC70AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.EnumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enum.app/Enum";
+			};
+			name = Debug;
+		};
+		FA40B3AF1C71785500AC70AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EnumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.EnumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enum.app/Enum";
+			};
+			name = Release;
+		};
+		FA40B3B11C71785500AC70AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.EnumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Enum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA40B3B21C71785500AC70AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EnumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alex.EnumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Enum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA40B3781C71785400AC70AC /* Build configuration list for PBXProject "Enum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40B3A81C71785500AC70AC /* Debug */,
+				FA40B3A91C71785500AC70AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA40B3AA1C71785500AC70AC /* Build configuration list for PBXNativeTarget "Enum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40B3AB1C71785500AC70AC /* Debug */,
+				FA40B3AC1C71785500AC70AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA40B3AD1C71785500AC70AC /* Build configuration list for PBXNativeTarget "EnumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40B3AE1C71785500AC70AC /* Debug */,
+				FA40B3AF1C71785500AC70AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA40B3B01C71785500AC70AC /* Build configuration list for PBXNativeTarget "EnumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA40B3B11C71785500AC70AC /* Debug */,
+				FA40B3B21C71785500AC70AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA40B3751C71785400AC70AC /* Project object */;
+}
